@@ -21,6 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
+
 # SECURITY WARNING: don't run with debug turned on in production!
 
 DEBUG = True
@@ -87,6 +88,7 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, STATIC_URL.strip("/static/"))
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+ADMIN_SITE_HEADER = "PyConGhana Dashboard"
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
